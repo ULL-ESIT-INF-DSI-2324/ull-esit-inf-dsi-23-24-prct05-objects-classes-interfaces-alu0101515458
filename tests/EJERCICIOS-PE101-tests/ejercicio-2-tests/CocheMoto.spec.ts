@@ -1,6 +1,6 @@
 import { expect } from "chai";
-import { Coche } from "../../../src/EJERCICIOS-PE101/ejercicio-2/Coche"; // Ajusta la ruta según tu estructura de archivos
-import { Moto } from "../../../src/EJERCICIOS-PE101/ejercicio-2/Moto"; // Ajusta la ruta según tu estructura de archivos
+import { Coche } from "../../../src/EJERCICIOS-PE101/ejercicio-2/Coche";
+import { Moto } from "../../../src/EJERCICIOS-PE101/ejercicio-2/Moto";
 
 describe("Pruebas de Vehículos", () => {
   describe("Coche", () => {
