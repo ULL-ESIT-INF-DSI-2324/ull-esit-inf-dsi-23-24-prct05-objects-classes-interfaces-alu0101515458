@@ -1,5 +1,18 @@
 import { ElementoBibliografico } from "./ElementoBibliografico";
 
+/**
+ * Clase que representa un gestor bibliográfico.
+ * @export
+ * @class GestorBibliografico
+ * @constructor
+ * @property {ElementoBibliografico[]} elementos Array que almacena los elementos bibliográficos del gestor.
+ * @method {void} addElement Función que añade un elemento bibliográfico al gestor bibliográfico.
+ * @method {ElementoBibliografico[]} getElements Función que devuelve los elementos bibliográficos del gestor.
+ * @method {void} showElementsTable Función que muestra por consola los elementos bibliográficos del gestor.
+ * @method {ElementoBibliografico[]} searchByKeyword Función que busca elementos bibliográficos por una palabra clave.
+ * @method {void} showSearchResultsTable Función que muestra por consola los resultados de la búsqueda de elementos bibliográficos por una palabra clave.
+ * @method {string} exportSearchResultsIEEE Función que exporta los resultados de la búsqueda de elementos bibliográficos por una palabra clave en formato IEEE.
+ */
 export class GestorBibliografico {
   /**
    * Array que almacena los elementos bibliográficos del gestor.
